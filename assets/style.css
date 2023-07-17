@@ -45,6 +45,10 @@
   background: var(--gray-10);
 }
 
+.hidden {
+  display: none;
+}
+
 .dropdown-toggle.nav-link,
 .navbar {
   background: var(--gray-10) !important;
