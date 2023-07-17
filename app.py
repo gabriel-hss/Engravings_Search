@@ -19,6 +19,8 @@ app = Dash(
     title="Inventory Retracement Bar",
 )
 
+server = app.server
+
 table_component = table(df)
 
 table_length = 8
