@@ -88,3 +88,4 @@ wcwidth==0.2.6
 websockets==11.0.2
 Werkzeug==2.2.3
 yarl==1.9.2
+gunicorn==20.1.0
