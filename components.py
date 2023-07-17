@@ -14,3 +14,15 @@ def table(df):
         style={"overflow": "hidden", "height": "100vh"},
     )
 
+
+search_button = dbc.Button(
+    en_US["SEARCH"],
+    id="search_button",
+    style={
+        "margin-top": "10px",
+        "border-radius": "20px",
+    },
+    color="primary",
+    outline=False,
+    className="d-grid gap-2 col-6 mx-auto w-100",
+),
