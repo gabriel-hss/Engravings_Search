@@ -16,7 +16,7 @@ app = Dash(
     "Engravings",
     suppress_callback_exceptions=False,
     external_stylesheets=[icons, theme, style_sheet],
-    title="Inventory Retracement Bar",
+    title="Engraving Search",
 )
 
 server = app.server
